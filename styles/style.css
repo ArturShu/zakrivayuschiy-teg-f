@@ -119,9 +119,7 @@ main {
     0 -1px var(--label-stroke-color);
 }
 
-@supports (
-  (-webkit-text-stroke: 1px var(--label-stroke-color))
-) {
+@supports ((-webkit-text-stroke: 1px var(--label-stroke-color))) {
 
   .card__label {
     -webkit-text-stroke: 1px var(--label-stroke-color);
@@ -175,6 +173,7 @@ main {
   line-height: 90%;
   mix-blend-mode: difference;
 }
+
 
 .button {
   position: relative;
@@ -396,3 +395,4 @@ main {
     padding: 5px 10px;
   }
 }
+

@@ -1,3 +1,13 @@
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::after,
+  *::before {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
 @keyframes scale {
 
   0% {
